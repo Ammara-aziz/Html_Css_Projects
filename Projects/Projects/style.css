@@ -1,0 +1,188 @@
+header{
+    padding: 18px;
+    background-color:#01021f;
+}
+header h3 a{
+    color: white;
+}
+header h3, nav{
+    display: inline-block; 
+    
+}
+header{
+    margin: 0;
+}
+#navbar ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+#navbar  li{
+    display: inline-block;
+    
+}
+#navbar a{
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: white;
+    padding: 20px;
+}
+#navbar a:hover{
+    
+   color:aliceblue;
+   background-color:#505780;
+   border-radius: 8px;
+   padding: 7px;
+}
+.btn{
+    padding: 13px;
+    padding-left: 27px;
+    padding-right: 27px;
+    font-size:medium;
+    border-radius: 7px;
+    background-color: #8152fe;
+    color: white;
+    
+    float: right;
+}
+/* ==================================================
+   HERO SECTION
+   ================================================== */
+.hero-text{
+    display: inline-block;
+    padding: 20px;
+    
+    background-color: #000d57;
+    vertical-align: top;
+    width: 35%;
+    box-sizing: border-box;
+}
+.hero-text, .hero-image{
+    margin: 0;
+    padding: 0;
+    
+    gap: 0;
+    display: inline-block;
+    width: 35%;
+    height: 400px;
+    vertical-align: top;
+}
+.hero-text h2{
+    color: aliceblue;
+    font-size: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+        }
+
+.hero-text h1{
+    color: aliceblue;
+    font-size: 42px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.hero-image{
+    display: inline-block;
+    vertical-align: top;
+    width: 64.7%;
+    height: 400px;
+    box-sizing: border-box;
+}
+.hero-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+/* ==================================================
+   MAIN CONTAINER
+   ================================================== */
+
+#pad-left{
+  display: inline-block;
+  vertical-align: top;
+  width: 40%;
+  padding-right: 20px;
+   
+}
+#sidebar{
+    width: 100%;
+  padding-left: 55px;
+    
+}
+.cards{
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  padding-left: 20px;
+  
+  margin-top: 48px;
+}
+.box{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px;
+    margin: 5px;
+    width: 100px;
+    height:170px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    
+    border-radius: 5px;
+    
+    
+}
+.schedule{
+    text-align: center;
+}
+.feature{
+    display: inline-block;
+    vertical-align: top;
+    padding: 12px;
+    margin: 15px;
+    border: 2px solid rgb(219, 207, 207) ;
+}
+.c{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.course-card{
+    border: 2px solid #505780;
+   
+}
+.join{
+    background-color: rgb(213, 194, 18);
+}
+#footer-link a{
+    text-decoration: none;
+    color: white ;
+}
+button{
+    
+    font-size:medium;
+    border-radius: 7px;
+    background-color: #8152fe;
+    color: white;
+    height: 39px;
+    width: 200px;
+}
+#icon{
+    background-color: #8152fe; color: white; font-size: 29px; border-radius: 3px; padding: 12px;
+}
+.inline{
+   
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer-section{
+    display: inline-block;
+  vertical-align: top;
+    height: 290px;
+    width: 400px;
+    
+    color: white;
+    width: 20%;
+    margin:  15px;
+    padding-right: 25px;
+}
