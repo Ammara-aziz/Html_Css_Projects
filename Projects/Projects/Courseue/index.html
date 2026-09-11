@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"      integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="page">
+      <!-- Sidebar -->
+      <aside class="sidebar">
+          <div id="logo">
+            <i class="fa-brands fa-phoenix-squadron" id="brnd-icon" height="20px"></i>
+            <h2 class="nav-div">Coursue</h2>
+          </div>
+          <div class="nav-section">
+            <h4 id="dashbrd" style="color: grey">OVERVIEW</h4>
+            <h4 id="dashbrd">
+              <img
+                src="./dashboard (1).png"
+                alt=""
+                height="12"
+                style="color: rgb(102, 71, 175)"
+              />
+              Dashboard
+            </h4>
+            <h4 id="dashbrd">
+              <img src="./inbox.png" alt="" height="12" />
+              Inbox
+            </h4>
+            <h4 id="dashbrd">
+              <i class="fa-solid fa-chalkboard"></i>
+              Lesson
+            </h4>
+            <h4 id="dashbrd">
+              <i class="fa-regular fa-rectangle-list"></i>
+              Task
+            </h4>
+            <h4 id="dashbrd">
+              <i class="fa-solid fa-user-group" style="color: black"></i>
+              Group
+            </h4>
+          </div>
+
+          <div class="friends">
+            <h4 id="dashbrd" style="color: grey">Friends</h4>
+            <h4 id="dashbrd">
+              <img src="./inbox.png" alt="" height="12" />
+              Iman
+            </h4>
+            <h4 id="dashbrd">
+              <img src="./inbox.png" alt="" height="12" />
+              Emman
+            </h4>
+          </div>
+          <div class="settings">
+            <h4 id="dashbrd" style="color: grey">SETTINGS</h4>
+            <h4 id="dashbrd">
+              <i class="fa-solid fa-gear"></i>
+              Settings
+            </h4>
+            <h4 id="dashbrd" style="color:orange">
+              <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              Logout
+            </h4>
+          </div>
+      </aside>
+      <!-- Main content -->
+      <main class="main">
+      <header class="main-header">
+        <nav class="navbar">
+          <input
+            type="search"
+            class="search-input"
+            name="search"
+            id="search"
+            placeholder="Search Your Course"
+          />
+
+          <div class="header-actn"><i class="fa-solid fa-envelope"></i></div>
+          <div class="header-actn"><i class="fa-solid fa-chalkboard"></i></div>
+          <div class="vertical-line">|</div>
+          <div style="display: flex;flex-direction: row; gap: 10px;">
+            <img src="./images/ava.png" style="border: 1px solid grey;height: 40px; width: 40px;border-radius: 50%;" alt="">
+            <h4 class="dashboard">Jason Ranti</h4>
+          </div>
+        </nav>
+      </header>
+      <aside id="stat-panel">
+          <div class="stat">
+            <h4 class="dashbrd">Statistic</h4>
+            <i class="fa-solid fa-ellipsis-vertical"></i>
+          </div>
+          <div class="circle-div">
+                        <div 
+                          class="circle" 
+                          >
+                          <p>32%</p>
+                          <img src="./images/ava.png" style="height: 120px; width: 135px;border-radius: 50%;" alt="">
+                        </div>
+                        <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif;font-weight: 500;">Good Morning Jason</h3>
+          </div>
+          <img class="chart" src="./stat-chart.jpg" alt="">
+          <section class="headline">
+            <div class="stat">
+              <h4 class="dashbrd">Your Mentor</h4>
+              <i class="fa-solid fa-plus plus-icon"></i>
+             </div>  
+             <div class="mntrs">
+                <div class="mentor">
+                  <div class="mentor-info">
+                     <h5>Eden Laousha</h5>
+                     <h6>Mentor</h6>
+                  </div>
+
+                  <div class="follow-btn-div">
+                    <i class="fa-solid fa-user-check"></i>
+                    <button class="follow-btn">Follow</button>
+                  </div>
+                </div>
+                <div class="mentor">
+                  <div class="mentor-info">
+                     <h5>Eden Laousha</h5>
+                     <h6>Mentor</h6>
+                  </div>
+
+                  <div class="follow-btn-div">
+                    <i class="fa-solid fa-user-check"></i>
+                    <button class="follow-btn">Follow</button>
+                  </div>
+                </div>
+                <div class="mentor">
+                  <div class="mentor-info">
+                     <h5>Eden Laousha</h5>
+                     <h6>Mentor</h6>
+                  </div>
+
+                  <div class="follow-btn-div">
+                    <i class="fa-solid fa-user-check"></i>
+                    <button class="follow-btn">Follow</button>
+                  </div>
+                </div>
+                <button style="color: rgb(142, 99, 223); background-color: rgb(235, 227, 249);width: 160px;border-radius: 20px;padding: 5px;border: none;">See All</button>
+             </div> 
+          </section>
+        </aside>
+
+      <div class="mn-content">
+        <section class="hero">
+            <div class="hero-content">
+            <p>ONLINE COURSE</p>
+            <h1>Sharpen Your Skills with<br>
+              Professional Online Courses</h1>
+
+              <button class="join-btn">
+                Join Now
+                <i class="fa-solid fa-caret-right" id="ar"></i>
+
+              </button>
+         </div>
+
+            <div class="hero-star star1">✦</div>
+            <div class="hero-star star2">✦</div>
+            <div class="hero-star star3">✦</div>
+        </section>
+        <div class="course-card-list">
+            <div class="course-card"> 
+                <i class="fa-solid fa-pen-ruler" id="course-icon"></i>           
+                <div class="crd-txt-box">
+                    <h4 id="txt" >2/8 watched</h4>
+                    <h2 class="crd-txt">
+                        UI/UX Design
+                    </h2>
+                </div> 
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+            </div>
+            <div class="course-card"> 
+                <i class="fa-solid fa-magnifying-glass-chart" id="course-icon"></i>           
+                <div class="crd-txt-box">
+                    <h4 id="txt" >3/8 watched</h4>
+                    <h2 class="crd-txt">
+                         Digital Marketing
+                    </h2>
+                </div> 
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+              <div class="course-card"> 
+                <i class="fa-solid fa-pen-ruler" id="course-icon"></i>           
+                <div class="crd-txt-box">
+                    <h4 id="txt" >6/12 watched</h4>
+                    <h2 class="crd-txt">
+                        Artificial Intelligence
+                    </h2>
+                </div> 
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </div>
+            </div>
+          </div>
+          <div class="watching">
+            <h2 class="section-title">Continue Watching</h2>
+            <div class="arrow">
+            <div  class="aro"><i class="fa-solid fa-caret-left "></i></div>
+            <div class="aro"><i class="fa-solid fa-caret-right"></i></div>
+          </div>
+          
+        </div>
+        <section class="menu-card">
+            <div class="menu">
+              <img class="menu-img" src="./images/man-typing.webp" alt="">
+              <div>
+                Optimizing User Experience with the best UI/UX Design
+              </div>
+              <div>
+                <h5  style="margin-top: 10px;font-weight: normal; ">
+                  Eden Laousha 
+                </h5>
+                <h6 id="txt" >Mentor</h6>
+              </div>
+            </div>
+            <div class="menu">
+              <div class="img-box">
+                <img class="menu-img" src="./images/wrkng.jpg" alt="">
+                <i class="fa-regular fa-heart heart-icon" ></i>
+              </div>
+              <div>
+                Reviving and Refreshing Company images
+              </div>
+               <div>
+                <h5  style="margin-top: 10px;font-weight: normal; ">
+                  Eden Laousha 
+                </h5>
+                <h6 id="txt" >Mentor</h6>
+
+              </div>
+            </div>
+            <div class="menu" >
+              <img class="menu-img" src="./images/lady-wrkng.jpg" alt="">
+              <div>
+                Beginner's guide to make AI Agents
+              </div>
+               <div>
+                <h5  style="margin-top: 10px;font-weight: normal; ">
+                  Eden Laousha 
+                </h5>
+                <h6 id="txt" >Mentor</h6>
+
+              </div>
+            </div>
+         </section>
+      </div>
+         
+        
+    
+    </main>
+    
+    </div>
+  </body>
+</html>

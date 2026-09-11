@@ -1,0 +1,552 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+#brnd-icon {
+    margin-right: 7px;
+    padding-top: 7px;
+}
+
+.nav-div {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+}
+
+#dashbrd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #111;
+    margin: 17px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dashbrd {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+
+.nav-section>#dashbrd:first-child,
+.friends>#dashbrd:first-child,
+.settings>#dashbrd:first-child {
+    color: grey;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    margin-bottom: 25px;
+}
+
+
+.vertical-line {
+    width: 2px;
+    height: 43px;
+    background-color: #d2caca;
+    margin: 0 15px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 1px;
+    justify-content: center;
+}
+
+.main {
+    background-color: aliceblue;
+    width: 1050px;
+    float: right;
+}
+
+.header-actn {
+    border: 2px solid rgb(248, 230, 230);
+    border-radius: 80%;
+    padding: 15px;
+    margin: 12px;
+}
+
+#search {
+    padding: 12px;
+    padding-top: 12px;
+    margin: 0;
+    height: 40px;
+    width: 700px;
+    border-radius: 300px;
+    border: 1.5px solid rgb(254, 234, 234);
+}
+
+.hero-img {
+    height: 150px;
+    width: 720px;
+    border-radius: 16px;
+
+}
+
+#stat-panel {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 260px;
+    background-color: white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 15px;
+    height: 500px;
+}
+
+.sidebar {
+    position: fixed;
+    background-color: white;
+    padding: 10px;
+    width: 200px;
+    padding-bottom: 200px;
+}
+
+.sidebar>.friends {
+    margin: 20px;
+    padding-bottom: 15px;
+}
+
+.sidebar>.settings {
+    margin: 20px;
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+}
+
+.stat {
+    display: flex;
+    justify-content: space-around;
+    width: 260px;
+    align-items: end;
+}
+
+.chart {
+    height: 120px;
+    width: 250px;
+    border-radius: 20px;
+    padding-top: 20px;
+}
+
+.stat h4 {
+    display: flex;
+    justify-content: right;
+}
+
+.course-card-list {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.course-card {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 90px;
+    background-color: white;
+    border-radius: 30px;
+    flex-shrink: 0;
+}
+
+#course-icon {
+    background-color: rgb(210, 200, 237);
+    height: 40px;
+    width: 50px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 20px;
+}
+
+.course-name {
+    padding-top: 10px;
+    width: 70px;
+}
+
+.crd-txt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+
+#txt {
+    color: grey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    margin-top: 7px;
+}
+
+.section-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 28px;
+}
+
+.mn-content {
+    padding: 20px;
+}
+
+.watching {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0px;
+    width: 750px;
+    margin-bottom: 15px;
+}
+
+
+.headline {
+    width: 260px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 12px;
+    margin-top: 10px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Your mentor + icon */
+.stat {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.stat h4 {
+    margin: 0;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+
+.circle-div {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.circle {
+    border: 2px solid gainsboro;
+    border-radius: 50%;
+    padding: 12px;
+}
+
+.circle p {
+    position: absolute;
+    background-color: #7164e8;
+    color: white;
+    border-radius: 30px;
+    padding: 4px;
+}
+
+.plus-icon {
+    width: 25px;
+    height: 25px;
+
+    border: 1px solid #ddd;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: rgb(142, 99, 223);
+    font-size: 12px;
+}
+
+
+/* All mentors */
+.mntrs {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    background-color: aliceblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Individual mentor */
+.mentor {
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 12px 0;
+
+    border-bottom: 1px dotted #d5d5d5;
+}
+
+
+/* Remove dotted line from last mentor */
+.mentor:last-child {
+    border-bottom: none;
+}
+
+
+/* Image + name together */
+.mentor-left {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+
+/* Mentor circular image */
+.mentor-img {
+    width: 38px;
+    height: 38px;
+
+    border-radius: 50%;
+
+    background-color: #eee8f5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #555;
+}
+
+
+/* Name and Mentor text */
+.mentor-info h5 {
+    margin: 0;
+    font-size: 12px;
+    font-weight: 600;
+    color: #222;
+}
+
+.mentor-info h6 {
+    margin: 5px 0 0;
+    font-size: 10px;
+    font-weight: normal;
+    color: grey;
+}
+
+
+/* Follow button */
+.follow-btn-div {
+    width: 75px;
+    height: 28px;
+
+    border: 1px solid rgb(142, 99, 223);
+    border-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 4px;
+
+    color: rgb(142, 99, 223);
+}
+
+
+/* Follow icon */
+.follow-btn-div i {
+    font-size: 10px;
+}
+
+
+/* Button itself */
+.follow-btn {
+    border: none;
+    background: none;
+
+    color: rgb(142, 99, 223);
+
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.arrow {
+    display: flex;
+    flex-direction: row;
+}
+
+.aro:hover,
+.arow:hover {
+    height: 30px;
+    width: 30px;
+    background-color: rgb(218, 170, 252);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#l {
+    color: grey
+}
+
+.sidebar>.nav-section {
+
+    margin: 20px;
+}
+
+.hero {
+    position: relative;
+    width: 720px;
+    height: 208px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #6658df, #7164e8);
+    color: white;
+    padding: 25px 22px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-content p {
+    font-size: 11px;
+    letter-spacing: 3px;
+    margin-bottom: 14px;
+}
+
+.hero-content h1 {
+    font-size: 30px;
+    line-height: 1.1;
+    font-weight: 500;
+}
+
+.join-btn {
+    margin-top: 25px;
+    border: none;
+    border-radius: 30px;
+    background: #050505;
+    color: white;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#ar {
+    color: black;
+    height: 13px;
+    width: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 10px
+}
+
+.hero-star {
+    position: absolute;
+    color: #a9a0ff;
+    font-size: 70px;
+}
+
+.star1 {
+    right: 120px;
+    top: 40px;
+}
+
+.star2 {
+    right: 25px;
+    bottom: 15px;
+    font-size: 45px;
+}
+
+.star3 {
+    right: 250px;
+    bottom: -20px;
+    font-size: 50px;
+}
+
+.menu-card {
+    display: flex;
+    gap: 20px;
+    background-color: white;
+
+}
+
+.menu {
+    height: 130px;
+    width: 230px;
+}
+
+.img-box {
+    position: relative;
+}
+
+.heart-icon {
+    position: absolute;
+    top: 4px;
+    right: 14px;
+
+    padding: 12px;
+
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+
+    border-radius: 50%;
+
+    z-index: 2;
+
+    color: white;
+}
+
+.menu-img {
+    border-radius: 14px;
+    height: 130px;
+    width: 230px;
+    position: relative;
+}
