@@ -16,7 +16,12 @@ header {
     display: flex;
     flex-direction: row;
 }
-
+.main {
+    background-color: aliceblue;
+    width: 1050px;
+    float: right;
+    margin: 0%;
+}
 #logo {
     display: flex;
     flex-direction: row;
@@ -78,12 +83,7 @@ header {
     justify-content: center;
 }
 
-.main {
-    background-color: aliceblue;
-    width: 1050px;
-    float: right;
-    margin: 0%;
-}
+
 
 .header-actn {
     border: 2px solid rgb(248, 230, 230);
@@ -123,11 +123,15 @@ header {
 }
 
 .sidebar {
+    /*position: sticky;*/
     position: fixed;
+    top: 0;
+    height: 100vh;
     background-color: white;
-    padding: 10px;
-    width: 200px;
+    padding: 20px;
+    width: 260px;
     padding-bottom: 200px;
+    flex-shrink: 0;
 }
 
 .sidebar>.friends {
@@ -166,7 +170,7 @@ header {
     display: flex;
     flex-direction: row;
     gap: 8px;
-    height: 200px;
+    height: 90px;
     margin-top: 10px;
 }
 
@@ -313,17 +317,13 @@ header {
     flex-direction: column;
 }
 
-
 /* Individual mentor */
 .mentor {
     width: 100%;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
-
     padding: 12px 0;
-
     border-bottom: 1px dotted #d5d5d5;
 }
 
@@ -364,15 +364,11 @@ header {
 .mentor-img {
     width: 38px;
     height: 38px;
-
     border-radius: 50%;
-
     background-color: #eee8f5;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     color: #555;
 }
 
@@ -403,16 +399,12 @@ header {
 .follow-btn-div {
     width: 75px;
     height: 28px;
-
     border: 1px solid rgb(142, 99, 223);
     border-radius: 20px;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     gap: 4px;
-
     color: rgb(142, 99, 223);
 }
 
@@ -427,9 +419,7 @@ header {
 .follow-btn {
     border: none;
     background: none;
-
     color: rgb(142, 99, 223);
-
     font-size: 10px;
     cursor: pointer;
 }
@@ -455,7 +445,6 @@ header {
 }
 
 .sidebar>.nav-section {
-
     margin: 20px;
 }
 
@@ -556,15 +545,10 @@ header {
     position: absolute;
     top: 4px;
     right: 14px;
-
     padding: 12px;
-
     backdrop-filter: blur(5px);
-
     border-radius: 50%;
-
     z-index: 2;
-
     color: white;
 }
 
